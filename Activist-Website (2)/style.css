@@ -1,0 +1,167 @@
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+body{
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+h1, h2{
+  font-family: 'Poppins', sans-serif;
+  margin: 1em auto .5em;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color:#1BA63D;
+  padding: 1%;
+  border-radius: 10px;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+  padding: 1%;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+nav a:hover{
+  background-color: white;
+}
+p{
+  margin: 1em auto;
+  max-width: 500px;
+  font-size: 1.25em;
+  
+}
+a{
+  display: block;
+  color: #F2CB05;
+  font-size: 1.25em;
+}
+#images{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 10px;
+  border: 3px solid white; 
+  margin-bottom: 2em;
+}
+@media screen and (max-width: 900px) {
+  body {
+    max-width:450px;
+  }
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7em;
+}
+input:focus{
+  outline: none;
+  border: 2px solid #000000;
+}
+.script{
+  background-color:#F21628;
+  color: black;
+  font-size: 1.25em;
+  margin: 1em auto;
+  max-width: 500px;
+
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+textarea {
+  border-style: none;
+  border-radius: 5px;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  background-color: #00BBE0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7em;
+}
+textarea:focus{
+  outline: none;
+  border: 2px solid #000000;
+}
+#submit {
+  background: white;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+#submit:hover{
+  background-color: black;
+  color:white;
+
+}
+#display{
+  text-align:left;
+}
+
+.genBunk, #myth {
+  margin-top: 30px;
+}
+
+.genBunk {
+  background-color: #00BBE0;
+  font-size: 1.25em;
+   margin: 1em auto;
+  max-width: 500px;
+
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#mythBtn {
+  background: yellow;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+#mythBtn:hover{
+  background-color: red;
+  color: white;
+}
+
+#myth {
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.attribution {
+  font-size: .9em;
+}
+
+/* colors
+#F21628 (red)
+#05AFF2 (blue)
+#1BA63D (green)
+#F2CB05 (yellow)
+and black
+*/
